@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import thaumcraft.code.Thaumcraft;
+import thaumcraft.code.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -20,6 +21,9 @@ public class ModCreativeModeTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.SALIS_MUNDUS.get());
                 pOutput.accept(ModItems.VIS_CRYSTAL.get());
+                pOutput.accept(ModBlocks.ARCANE_STONE.get());
+                pOutput.accept(ModBlocks.GREATWOOD_LOG.get());
+                pOutput.accept(ModBlocks.GREATWOOD_PLANKS.get());
             })
             .build());
 
