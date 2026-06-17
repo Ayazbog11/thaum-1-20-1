@@ -1,8 +1,16 @@
 {
   "item.thaumcraft.salis_mundus": "Салис Мундус",
   "item.thaumcraft.vis_crystal": "Кристалл Вис",
+  "item.thaumcraft.amber": "Янтарь",
+  "item.thaumcraft.quicksilver": "Ртуть",
   "block.thaumcraft.arcane_stone": "Магический Камень",
+  "block.thaumcraft.amber_ore": "Янтарная Руда",
+  "block.thaumcraft.cinnabar_ore": "Киноварная Руда",
   "block.thaumcraft.greatwood_log": "Бревно Великого Дерева",
   "block.thaumcraft.greatwood_planks": "Доски Великого Дерева",
+  "block.thaumcraft.greatwood_leaves": "Листва Великого Дерева",
+  "block.thaumcraft.silverwood_log": "Бревно Серебряного Дерева",
+  "block.thaumcraft.silverwood_planks": "Доски Серебряного Дерева",
+  "block.thaumcraft.silverwood_leaves": "Листва Серебряного Дерева",
   "creativetab.thaumcraft_tab": "Thaumcraft"
 }

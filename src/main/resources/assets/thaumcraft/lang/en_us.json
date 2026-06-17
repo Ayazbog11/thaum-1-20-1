@@ -1,8 +1,16 @@
 {
   "item.thaumcraft.salis_mundus": "Salis Mundus",
   "item.thaumcraft.vis_crystal": "Vis Crystal",
+  "item.thaumcraft.amber": "Amber",
+  "item.thaumcraft.quicksilver": "Quicksilver",
   "block.thaumcraft.arcane_stone": "Arcane Stone",
+  "block.thaumcraft.amber_ore": "Amber Ore",
+  "block.thaumcraft.cinnabar_ore": "Cinnabar Ore",
   "block.thaumcraft.greatwood_log": "Greatwood Log",
   "block.thaumcraft.greatwood_planks": "Greatwood Planks",
+  "block.thaumcraft.greatwood_leaves": "Greatwood Leaves",
+  "block.thaumcraft.silverwood_log": "Silverwood Log",
+  "block.thaumcraft.silverwood_planks": "Silverwood Planks",
+  "block.thaumcraft.silverwood_leaves": "Silverwood Leaves",
   "creativetab.thaumcraft_tab": "Thaumcraft"
 }

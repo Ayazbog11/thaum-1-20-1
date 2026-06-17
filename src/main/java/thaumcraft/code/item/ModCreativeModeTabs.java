@@ -20,9 +20,17 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.thaumcraft_tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.SALIS_MUNDUS.get());
+                pOutput.accept(ModItems.AMBER.get());
+                pOutput.accept(ModItems.QUICKSILVER.get());
                 pOutput.accept(ModItems.VIS_CRYSTAL.get());
                 pOutput.accept(ModBlocks.ARCANE_STONE.get());
                 pOutput.accept(ModBlocks.GREATWOOD_LOG.get());
+                pOutput.accept(ModBlocks.AMBER_ORE.get());
+                pOutput.accept(ModBlocks.CINNABAR_ORE.get());
+                pOutput.accept(ModBlocks.SILVERWOOD_LOG.get());
+                pOutput.accept(ModBlocks.SILVERWOOD_PLANKS.get());
+                pOutput.accept(ModBlocks.GREATWOOD_LEAVES.get());
+                pOutput.accept(ModBlocks.SILVERWOOD_LEAVES.get());
                 pOutput.accept(ModBlocks.GREATWOOD_PLANKS.get());
             })
             .build());
