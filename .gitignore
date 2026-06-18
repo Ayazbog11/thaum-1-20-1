@@ -27,3 +27,5 @@ run-data/
 run/
 run-data/
 run/
+src/generated/resources/.cache/
+src/generated/resources/.cache

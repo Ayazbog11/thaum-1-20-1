@@ -20,6 +20,12 @@ public class ModItems {
     public static final RegistryObject<Item> QUICKSILVER = ITEMS.register("quicksilver",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> THAUMOMETER = ITEMS.register("thaumometer",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> THAUMONOMICON = ITEMS.register("thaumonomicon",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> VIS_CRYSTAL = ITEMS.register("vis_crystal",
             () -> new Item(new Item.Properties()));
 

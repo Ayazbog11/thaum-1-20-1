@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.SALIS_MUNDUS.get());
                 pOutput.accept(ModItems.AMBER.get());
                 pOutput.accept(ModItems.QUICKSILVER.get());
+                pOutput.accept(ModItems.THAUMOMETER.get());
+                pOutput.accept(ModItems.THAUMONOMICON.get());
                 pOutput.accept(ModItems.VIS_CRYSTAL.get());
                 pOutput.accept(ModBlocks.ARCANE_STONE.get());
                 pOutput.accept(ModBlocks.GREATWOOD_LOG.get());
