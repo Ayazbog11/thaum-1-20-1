@@ -6,6 +6,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LeavesBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.SaplingBlock;
+import thaumcraft.code.worldgen.tree.GreatwoodTreeGrower;
+import thaumcraft.code.worldgen.tree.SilverwoodTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,6 +46,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GREATWOOD_LEAVES = registerBlock("greatwood_leaves",
         () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+
+    public static final RegistryObject<Block> GREATWOOD_SAPLING = registerBlock("greatwood_sapling",
+        () -> new SaplingBlock(new GreatwoodTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> SILVERWOOD_SAPLING = registerBlock("silverwood_sapling",
+        () -> new SaplingBlock(new SilverwoodTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> SILVERWOOD_LEAVES = registerBlock("silverwood_leaves",
         () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));

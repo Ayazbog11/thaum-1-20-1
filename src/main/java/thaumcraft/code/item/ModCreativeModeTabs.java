@@ -30,6 +30,8 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.SILVERWOOD_LOG.get());
                 pOutput.accept(ModBlocks.SILVERWOOD_PLANKS.get());
                 pOutput.accept(ModBlocks.GREATWOOD_LEAVES.get());
+                pOutput.accept(ModBlocks.GREATWOOD_SAPLING.get());
+                pOutput.accept(ModBlocks.SILVERWOOD_SAPLING.get());
                 pOutput.accept(ModBlocks.SILVERWOOD_LEAVES.get());
                 pOutput.accept(ModBlocks.GREATWOOD_PLANKS.get());
             })
